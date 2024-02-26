@@ -32,7 +32,7 @@ export default function Navigation() {
   };
   return (
     <>
-      <Navbar expand="md" className={scrolled ? "scrolled pt-0" : " pt-0"}>
+      <Navbar expand="md" fixed="top" className={scrolled ? "scrolled pt-0" : " pt-0"}>
         <Container className="pt-1">
           <Navbar.Brand href="/">
             <img style={{width:"70px"}} src={logo} alt="Logo" />

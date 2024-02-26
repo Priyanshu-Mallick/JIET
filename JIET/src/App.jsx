@@ -9,11 +9,7 @@ export default function App() {
   return (
     <BrowserRouter>
     <Navbar />
-    <br />
-    <br />
-    <br />
-    <br />
-    hyy
+   
     <Routes>
       <Route path="/" element={<Home></Home>} />
       <Route path="/about" element={<About />} />
